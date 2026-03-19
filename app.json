@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Yiam Than",
+    "slug": "prison-visit-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logoapp.png",
+    "scheme": "prisonvisitapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF", 
+        "foregroundImage": "./assets/images/logoapp.png" 
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.amornrit.prisonvisitapp",
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "19138466-da4b-480c-85c6-dee8c96f979c"
+      }
+    }
+  }
+}
