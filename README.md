@@ -52,7 +52,7 @@ npx expo start
 
 ## 🛠 เทคโนโลยีที่ใช้ (Tech Stack)
 
-*   **Framework**: React Native 0.80.2
+*   **Framework**: React Native 0.81.5
 *   **Navigation**: Expo Router (File-based routing)
 *   **Networking**: Axios, WebRTC (สำหรับการสนทนาวิดีโอ)
 *   **Icons**: React Native Vector Icons (Ionicons, MaterialCommunityIcons)
